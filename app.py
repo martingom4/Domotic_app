@@ -13,7 +13,7 @@ def analyze():
     data = request.get_json()
     text = data.get('text', '')
 
-    # Llamar a la función de análisis léxico
+    # esto llama al analizador lexico 
     tokens = analyze_lexically(text)
 
     return jsonify({'tokens': tokens})

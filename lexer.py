@@ -1,18 +1,20 @@
 # lexer.py
 
-# Diccionarios para representar la tabla de símbolos
+# Diccionarios para representar la tabla de símbolos ya definida 
 COMANDOS = {
     "encender": "Indica que se debe encender un dispositivo.",
     "apagar": "Indica que se debe apagar un dispositivo.",
     "ajustar": "Indica que se debe modificar un parámetro (brillo, volumen, temperatura)."
 }
 
+#los dispositivos disponibles 
 DISPOSITIVOS = {
     "luz": "Representa una luz que puede ser encendida, apagada o ajustada en brillo.",
     "termostato": "Representa un dispositivo de control de temperatura.",
     "altavoz": "Representa un dispositivo de audio que puede ser ajustado en volumen."
 }
 
+#funcion para analizar el lexico entrante 
 def analyze_lexically(text):
     """
     Analiza la cadena de entrada y la descompone en tokens.

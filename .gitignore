@@ -1,0 +1,31 @@
+# Entorno virtual
+venv/
+.env/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+
+# Archivos de caché de Flask
+instance/
+*.log
+*.sqlite3
+
+# Archivos de configuración locales
+*.env
+
+# Archivos de dependencias de pipenv
+Pipfile
+Pipfile.lock
+
+# Configuraciones del editor de código
+.idea/
+.vscode/
+
+# Archivos y carpetas de Docker
+docker-compose.yml
+*.dockerfile
+
+# Archivos y carpetas temporales del sistema operativo
+.DS_Store
+Thumbs.db
